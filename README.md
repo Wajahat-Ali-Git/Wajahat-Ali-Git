@@ -1,58 +1,95 @@
-<!-- ============================== HEADER ============================== -->
+<!-- ─── HEADER ─── -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Wajahat%20Ali&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20React%20%C2%B7%20TypeScript%20%C2%B7%20Supabase&descAlignY=58&descSize=18" width="100%" alt="Wajahat Ali banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=180&section=header&text=&fontSize=1" width="100%" alt="" />
 
-<a href="https://github.com/Wajahat-Ali-Git">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=2DD4BF&center=true&vCenter=true&width=640&lines=Building+production-ready+web+apps;React+%2B+TypeScript+%2B+Supabase+%2B+PostgreSQL;Security-first+architecture+%E2%80%94+RLS%2C+MFA%2C+RBAC;Edge-native+apps+on+Cloudflare+Workers" alt="Typing SVG" />
-</a>
+```
+ ╭─────────────────────────────────────────────────────╮
+ │                                                     │
+ │   Wajahat Ali                                       │
+ │   Full-Stack Engineer  ·  Lahore, Pakistan          │
+ │                                                     │
+ │   $ whoami                                          │
+ │   → I build production web apps, SaaS platforms,    │
+ │     and business integrations that actually ship.   │
+ │                                                     │
+ │   $ uptime                                          │
+ │   → 2+ years building for startups & agencies       │
+ │                                                     │
+ ╰─────────────────────────────────────────────────────╯
+```
+
+<a href="https://wajahatali-nine.vercel.app"><img src="https://img.shields.io/badge/Portfolio-wajahatali.dev-000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>&nbsp;
+<a href="https://linkedin.com/in/wajahat-ali-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
+<a href="mailto:wajahatali20012@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=Wajahat-Ali-Git&label=visitors&color=161b22&style=flat-square" alt="visitors"/>
+
+</div>
 
 <br/>
 
-<a href="https://linkedin.com/in/wajahat-ali-dev"><img src="https://img.shields.io/badge/LinkedIn-Wajahat%20Ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:wajahatali20012@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://wajahatali-nine.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<img src="https://komarev.com/ghpvc/?username=Wajahat-Ali-Git&label=Profile%20views&color=2c5364&style=for-the-badge" alt="Profile views"/>
+## The Short Version
 
-<br/><br/>
+I'm a full-stack engineer who cares about **shipping real products** — not just building UIs. Over the past 2+ years I've worked on everything from Salesforce integrations that eliminated 95% of duplicate records, to edge-native multi-tenant site-builders running on Cloudflare Workers, to payment flows processing ACH/Stripe/Square transactions.
 
-> *"I just mostly wonder in the repositories of unexplored domains."*
-
-</div>
+I think about architecture, security, and how things break in production — not just how they look in a demo.
 
 ---
 
-## 👋 About Me
-
-I'm a **Full-Stack Developer and Frontend Engineer** focused on building production-ready web applications, business platforms, and integrations.
-
-I enjoy working across the whole stack, from **responsive React interfaces and API integrations to PostgreSQL databases, authentication, security, and cloud backends**. I care about apps where **security and architecture matter**, not just the UI.
+## 💼 Experience
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="4%">🔵</td>
+<td width="96%">
 
-### 🚀 What I Do
-- ⚛️ Build production-ready **React & TypeScript** apps
-- 🔌 Design **REST APIs** and backend services
-- 🔐 Build secure authentication & authorization
-- 🗄️ Work with **PostgreSQL, Supabase & Firebase**
-- 🔗 Integrate third-party APIs & business platforms
-- 💳 Build **payment & checkout** workflows
-- ⚙️ Automate business processes & data pipelines
-- 📊 Develop responsive, data-driven interfaces
+### Software Engineer  ·  Metaviz  ·  *Jul 2026 – Present*
+
+**Enlorix Platform** — Edge-native multi-tenant site-builder monorepo (13 apps, 23 packages)
+- Built the **marketing page-builder** in `platform-admin` — section-based composition with hero, feature grids, testimonials, CTA blocks, theme controls, and SEO validation
+- Implemented **public page routing & rendering** with category-aware URLs, Open Graph/JSON-LD metadata, and social image support
+- Shipped admin editor, dashboard, **media uploads to Cloudflare R2**, custom-code editing, sandboxed iframe previews, and concurrent editing protection
+- Addressed 16+ security review documents, production debugging, and deployment readiness across multiple release cycles
+
+**Client Platform** — Full-stack React 19 + Supabase SaaS application
+- Built complete **auth system**: email login, Google OAuth, password recovery, MFA (TOTP), JWT sessions, RBAC, and database-enforced RLS
+- Developed **blog CMS** with TipTap editor, categories, scheduled publishing, recurring posts, platform fees, and premium content
+- Built **digital wallet system**: P2P transfers, admin-approved top-ups, realtime notifications, transaction audit trail
+- Created **admin dashboard** with user management, wallet controls, cron monitoring, and realtime operational stats
+
+**Education / CityFinder** — Next.js community platform on Cloudflare
+- Built city guide pages (places, food, stays, events, news, search) and auth screens with shared layouts
+
+**FundMate** — Charity → fundraising platform transformation
+- Built `/fundraising`, `/donate`, `/events` routes with donor lists, donation dialogs, galleries, amount chips
+- Shipped news/stories/blog pages, event carousels, crisis-relief stats/timelines, and sitemap SEO
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td width="4%">⚫</td>
+<td width="96%">
 
-### 🎯 Currently Focused On
-- 🌱 Scalable apps with **React, TypeScript, Supabase & PostgreSQL**
-- ☁️ Edge-native architecture on **Cloudflare**
-- 🧱 Multi-tenant SaaS platforms
-- 🛡️ Database-enforced security (RLS, RBAC, MFA)
+### Associate Software Engineer  ·  DevFlovv  ·  *Jun 2025 – Jun 2026*
 
-### 💡 Interested In
-Full-Stack Development · SaaS · Cloud Apps · APIs · Security · Automation
+**RHI — Ryan Homes Integration** *(React + Firebase Functions + Salesforce)*
+- Designed a **data-consolidation web app** aggregating opportunity data from multiple client APIs, normalizing records into unified stakeholder views
+- Built filtering/transformation pipelines with a **preview/approval workflow** for selective Salesforce record pushes
+- Automated opportunity creation and **deduplication in Salesforce** — eliminated **~95% of duplicate records**, saving **10+ hrs/week** of manual reconciliation
+- Owned full lifecycle: React frontend → Firebase Functions backend → deployment → monitoring → maintenance
+
+**FDC — Fence & Deck Connection** *(Angular + Firebase + Stripe/Square/ACH)*
+- Rebuilt a legacy HTML system into a **modern Angular + Firebase** web app with a dynamic 5-step adaptive form driven by Salesforce quotes
+- Integrated **digital signature capture**, validation workflows, and **multi-gateway payment processing** (ACH, Stripe, Square) with full + installment plans
+- Improved **contract completion rates by ~30%** through streamlined online contracting and payment flows
+
+**Market-Smart** *(React + Data Visualization)*
+- Built comprehensive user onboarding capturing acquisition preferences — profit targets, revenue expectations, investment criteria
+- Created **interactive data visualizations** for business decision-making with mobile-first responsive design
+
+**Angi's List — Salesforce Lead Integration** *(Zapier + Webhooks + Salesforce)*
+- Automated lead pipeline: Angi's List API → Zapier webhooks → Salesforce CRM — **zero manual entry**
 
 </td>
 </tr>
@@ -60,137 +97,42 @@ Full-Stack Development · SaaS · Cloud Apps · APIs · Security · Automation
 
 ---
 
-## 🧰 Tech Stack
-
-<div align="center">
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,angular,vite,tailwind,materialui,html,css&perline=10" alt="Frontend" />
-
-**Backend & APIs**
-
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,django,flask,fastapi,python,supabase,firebase&perline=10" alt="Backend" />
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,prisma,supabase,firebase&perline=10" alt="Databases" />
-
-**Cloud, DevOps & Tools**
-
-<img src="https://skillicons.dev/icons?i=cloudflare,docker,vercel,git,github,githubactions,postman,pnpm&perline=10" alt="Cloud and tools" />
-
-**Mobile & Testing**
-
-<img src="https://skillicons.dev/icons?i=react,expo,androidstudio,vitest,playwright,eslint&perline=10" alt="Mobile and testing" />
-
-</div>
-
-<details>
-<summary><b>📋 Full skills breakdown (click to expand)</b></summary>
-<br/>
-
-| Area | Technologies |
-|:--|:--|
-| **Frontend** | React 19 · Next.js 15 · Angular · React Native · TypeScript · Vite · MUI · Tailwind CSS v4 · TipTap · Recharts · React Router |
-| **Backend & APIs** | Node.js · NestJS · Django REST Framework · Flask · FastAPI · Supabase Edge Functions · Firebase Functions · WebSocket · REST |
-| **Databases** | PostgreSQL · MongoDB · MySQL · Firebase Firestore · Prisma ORM · SQL migrations · RPC functions · `pg_cron` |
-| **Auth & Security** | JWT (jose) · RBAC · MFA / TOTP / AAL2 · WebAuthn · Google OAuth · Row-Level Security · Supabase Auth |
-| **Payments** | Stripe · Square · ACH · Digital wallets · P2P transfers · Audit logging |
-| **Integrations** | Salesforce · Zapier · Webhooks · Resend · GoHighLevel |
-| **Edge & Infra** | Cloudflare Workers / Pages / R2 · Wrangler · OpenNext · Docker · Turborepo · pnpm workspaces · AWS S3 |
-| **Testing & Quality** | Vitest · Playwright · ESLint · Prettier · Husky · lint-staged · CI check scripts |
-| **Tools** | Git · GitHub · GitHub Actions · Postman · Bruno · Supabase CLI |
-| **Page Builder & CMS** | Section-based composition · Theme controls · SEO (Open Graph, JSON-LD) · Media uploads |
-
-</details>
-
----
-
-## 💼 Professional Experience
-
-### Associate Software Engineer · DevFlovv
-
-Built and maintained production applications across **React, Angular, Firebase, Salesforce, and payment integrations**.
-
-| Impact | Result |
-|:--|:--:|
-| 🔁 Duplicate Salesforce records reduced | **~95%** |
-| ⏱️ Manual reconciliation saved | **10+ hrs / week** |
-| 📝 Contract completion rate improved | **~30%** |
-
-- 🗂️ Built a **data-consolidation platform** that aggregated and normalized opportunity data from multiple APIs and databases.
-- 🔄 Developed filtering and transformation pipelines with **preview/approval workflows** for Salesforce sync.
-- 🤖 Automated Salesforce opportunity creation and deduplication.
-- 🏗️ Rebuilt a legacy HTML application into a modern **Angular + Firebase** platform.
-- ✍️ Implemented **digital signatures** and **Stripe, Square & ACH** payment workflows (full and installment payments).
-- 📈 Built React-based onboarding experiences and interactive data visualizations.
-
----
-
-## 🏢 Professional Projects (Metaviz)
+## 🔨 What I've Built (Personal)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏗️ Enlorix
-**Edge-native multi-tenant site builder**
+**[DevPulse](https://github.com/Wajahat-Ali-Git/DevPulse)** — Engineering intelligence platform<br/>
+<sub>NestJS · Next.js · Prisma · Docker · Turborepo</sub><br/>
+<sub>Syncs GitHub activity → background workers → analytics dashboard</sub>
 
-Enterprise monorepo with **13 apps and 23 shared packages** (pnpm workspaces). Includes a page builder, marketing-page routing, admin platform, and Cloudflare Workers.
+**[ChatWe](https://github.com/Wajahat-Ali-Git/chat-app)** — Real-time chat app<br/>
+<sub>Next.js · WebSocket · MongoDB · TailwindCSS</sub><br/>
+<sub>Full-stack monorepo with real-time messaging</sub>
 
-- Page builder with reusable sections, theme controls, undo history
-- Concurrent-edit protection and SEO / JSON validation
-- Media uploads to **Cloudflare R2**
-- Public marketing sites with Open Graph & JSON-LD
+**[BlogDRF](https://github.com/Wajahat-Ali-Git/BlogDRFProject)** — Full-stack blog<br/>
+<sub>Django REST · React · PostgreSQL · JWT · MUI</sub><br/>
+<sub>AI-assisted content, categories, Swagger docs</sub>
 
-`React` `TypeScript` `Vite` `Cloudflare Workers` `Supabase` `Docker` `Vitest` `Playwright`
-
-</td>
-<td width="50%" valign="top">
-
-### 💰 Blog & Wallet Platform
-**React + Supabase SaaS**
-
-Authentication, blog CMS, digital wallet, and admin dashboard.
-
-- Email + Google OAuth, **MFA (TOTP/WebAuthn)**, JWT, RBAC
-- TipTap editor, scheduled & recurring posts, premium content
-- **P2P transfers**, admin-approved top-ups, realtime notifications
-- RLS, secured RPCs, audit logging, `pg_cron`
-
-`React 19` `Next.js 15` `Supabase` `PostgreSQL` `Stripe` `Mapbox` `Zod`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 💚 FundMate
-**Fundraising platform**
-
-A charity theme transformed into a full fundraising platform.
-
-- Donation flows, donor lists, galleries
-- News, stories, blog with filtering
-- Event carousel and crisis-relief pages
-- Sitemap and SEO
-
-`Next.js 15` `React 19` `TypeScript` `Cloudflare (OpenNext)`
+**[CARSAGE](https://github.com/Wajahat-Ali-Git/CARSAGE)** — AI car marketplace<br/>
+<sub>React Native · Expo · Flask · Firebase</sub><br/>
+<sub>ML-powered recommendations, cross-platform mobile</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### 🌆 CityFinder
-**Academic & city community platform**
+**[OpenSea Clone](https://github.com/Wajahat-Ali-Git/OpenSea-Project)** — NFT marketplace<br/>
+<sub>React · Vite · FastAPI · Material UI</sub><br/>
+<sub>Browse collections, explore digital assets</sub>
 
-City guides for places, food, stays, events, news, and search.
+**[Blog + Wallet](https://github.com/Wajahat-Ali-Git/MyBlog_SupabaseReactProject)** — Supabase platform<br/>
+<sub>React 19 · Supabase · MFA · RLS · Vitest · Zod</sub><br/>
+<sub>Blog with platform fees, P2P wallet transfers</sub>
 
-- Responsive, rich content layouts
-- Sign-in, sign-up, and reset-password flows
-- Shared `AuthShell` layout
-
-`Next.js 15` `React 19` `TypeScript` `Cloudflare (OpenNext)`
+**[Portfolio](https://github.com/Wajahat-Ali-Git/MyPortfolio)** — Personal site<br/>
+<sub>Next.js · TypeScript · Vercel · GitHub Actions</sub><br/>
+<sub>Live at [wajahatali-nine.vercel.app](https://wajahatali-nine.vercel.app)</sub>
 
 </td>
 </tr>
@@ -198,137 +140,74 @@ City guides for places, food, stays, events, news, and search.
 
 ---
 
-## 🏗️ Current Projects
-
-| Project | Description | Stack |
-|:--|:--|:--|
-| **Enlorix** | Multi-tenant platform to manage digital operations, members, workflows, and services | React · TypeScript · Supabase · PostgreSQL · Cloudflare |
-| **Wallet System** | Member wallet with balances, top-ups, transfers, history, and admin balance management | React · TypeScript · PostgreSQL · Supabase |
-| **MyBlog** | Blog with separate User and Admin experiences, RBAC, scheduled publishing, MFA-protected admin actions | React · TypeScript · Vite · Supabase · PostgreSQL |
-
----
-
-## 📂 Featured Open-Source Repositories
+## 🛠 Tech Stack
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 📊 [DevPulse](https://github.com/Wajahat-Ali-Git/DevPulse)
-Engineering intelligence platform. Syncs GitHub repo activity, processes events with background workers, and shows metrics on an interactive dashboard.
-<br/><sub>`Next.js` `NestJS` `Prisma` `Docker` `Turborepo`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🚗 [CARSAGE](https://github.com/Wajahat-Ali-Git/CARSAGE)
-AI-powered car marketplace mobile app with recommendations, Firebase auth, and ML via Flask.
-<br/><sub>`React Native` `Expo` `Flask` `Firebase`</sub>
-
-</td>
+<td><b>Languages</b></td>
+<td>TypeScript · JavaScript · Python · SQL · HTML · CSS</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 💬 [ChatWe](https://github.com/Wajahat-Ali-Git/ChatWe)
-Real-time chat application (monorepo, frontend + backend).
-<br/><sub>`Next.js` `TailwindCSS` `Node.js` `WebSocket` `MongoDB`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [MyPortfolio](https://wajahatali-nine.vercel.app)
-Interactive digital resume with real-time GitHub activity. **[Live ↗](https://wajahatali-nine.vercel.app)**
-<br/><sub>`Next.js` `TypeScript` `Vercel` `GitHub Actions`</sub>
-
-</td>
+<td><b>Frontend</b></td>
+<td>React 19 · Next.js 15 · Angular · React Native · Vite · MUI · Tailwind v4 · TipTap · Recharts</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 💼 [MyBlog_SupabaseReactProject](https://github.com/Wajahat-Ali-Git/MyBlog_SupabaseReactProject)
-Blog and wallet platform with platform fees, two-step top-ups, P2P transfers, RLS, and MFA.
-<br/><sub>`React 19` `TypeScript` `MUI v9` `Supabase` `Vitest` `Zod`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 📝 [BlogDRFProject](https://github.com/Wajahat-Ali-Git/BlogDRFProject)
-Django REST backend with a React + TypeScript frontend: JWT auth, categories, and AI-assisted content.
-<br/><sub>`Django REST` `PostgreSQL` `React` `Vite` `MUI`</sub>
-
-</td>
+<td><b>Backend</b></td>
+<td>Node.js · NestJS · Django REST · Flask · FastAPI · Firebase Functions · Supabase Edge Functions</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 🖼️ [OpenSea-Project](https://github.com/Wajahat-Ali-Git/OpenSea-Project)
-OpenSea-inspired NFT marketplace for browsing collections and digital assets.
-<br/><sub>`React` `Vite` `MUI` `TailwindCSS` `FastAPI`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 Practice & Experiments
-[DjangoDev](https://github.com/Wajahat-Ali-Git/DjangoDev) · [react-frontend-practice](https://github.com/Wajahat-Ali-Git/react-frontend-practice) · [portfolio-hm](https://github.com/Wajahat-Ali-Git/portfolio-hm)
-<br/><sub>`Python` `Django` `React` `TypeScript`</sub>
-
-</td>
+<td><b>Data</b></td>
+<td>PostgreSQL · MongoDB · Prisma · Supabase · Firebase Firestore · pg_cron · SQL migrations</td>
+</tr>
+<tr>
+<td><b>Auth</b></td>
+<td>JWT · MFA/TOTP · WebAuthn · OAuth · RLS · RBAC · Supabase Auth</td>
+</tr>
+<tr>
+<td><b>Payments</b></td>
+<td>Stripe · Square · ACH · Digital wallets · P2P transfers</td>
+</tr>
+<tr>
+<td><b>Integrations</b></td>
+<td>Salesforce · Zapier · Webhooks · Resend · GoHighLevel</td>
+</tr>
+<tr>
+<td><b>Infra</b></td>
+<td>Cloudflare Workers/R2 · Docker · Turborepo · pnpm · AWS S3 · Vercel · GitHub Actions</td>
+</tr>
+<tr>
+<td><b>Quality</b></td>
+<td>Vitest · Playwright · ESLint · Prettier · Husky · 30+ CI check scripts</td>
 </tr>
 </table>
 
 ---
 
-## 🔐 Security & Backend Engineering
+## 📊 GitHub
 
 <div align="center">
 
-| 🛡️ RBAC | 🔑 JWT Auth | 📱 MFA / AAL2 | 🗄️ Row-Level Security |
-|:--:|:--:|:--:|:--:|
-| Role-based access control | Secure sessions | Step-up authentication | PostgreSQL policies |
-
-| 🔌 Secure APIs | 🧠 DB-backed Logic | ⏰ Scheduled Jobs | ✅ Data Validation |
-|:--:|:--:|:--:|:--:|
-| Third-party integrations | RPC functions | Cron automation | Zod & transformation |
+<img src="https://github-readme-stats.vercel.app/api?username=Wajahat-Ali-Git&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&ring_color=58a6ff&hide_title=true&include_all_commits=true" height="160" alt="stats" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wajahat-Ali-Git&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_title=true&langs_count=8" height="160" alt="languages" />
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
-
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Wajahat-Ali-Git&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f2027&title_color=2DD4BF&icon_color=2DD4BF&include_all_commits=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wajahat-Ali-Git&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f2027&title_color=2DD4BF&langs_count=8" alt="Top languages" />
+```
+ ╭──────────────────────────────────────────────────╮
+ │                                                  │
+ │   Open to full-stack, frontend, or integration   │
+ │   roles — remote or Lahore-based.                │
+ │                                                  │
+ │   Let's build something that ships.              │
+ │                                                  │
+ ╰──────────────────────────────────────────────────╯
+```
 
-<img src="https://streak-stats.demolab.com/?user=Wajahat-Ali-Git&theme=tokyonight&hide_border=true&background=0f2027&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Wajahat-Ali-Git&theme=tokyo-night&hide_border=true&bg_color=0f2027&color=2DD4BF&line=2DD4BF&point=ffffff" alt="Contribution graph" width="95%" />
-
-</div>
-
----
-
-## 🎓 Education
-
-**Bachelor of Science in Computer Science**
-Minhaj University, Lahore · 2020 – 2024
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-I'm always happy to talk about full-stack development, SaaS, security, and cloud architecture.
-
-<a href="https://linkedin.com/in/wajahat-ali-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:wajahatali20012@gmail.com"><img src="https://img.shields.io/badge/Gmail-Send%20a%20message-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-<a href="https://wajahatali-nine.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-2c5364?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer" width="100%" alt="" />
 
 </div>
