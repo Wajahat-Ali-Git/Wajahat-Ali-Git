@@ -95,8 +95,8 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Wajahat-Ali-Git&repo=BlogDRFProject&theme=tokyonight&show_owner=true" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/Wajahat-Ali-Git/CARSAGE">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Wajahat-Ali-Git&repo=CARSAGE&theme=tokyonight&show_owner=true" />
+<a href="https://github.com/Wajahat-Ali-Git/CarSage-Final-Year-Project">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Wajahat-Ali-Git&repo=CarSage-Final-Year-Project&theme=tokyonight&show_owner=true" />
 </a>
 
 <br/><br/>
