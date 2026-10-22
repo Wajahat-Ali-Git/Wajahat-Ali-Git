@@ -2,7 +2,7 @@
 
 # Hi there, I'm Wajahat Ali 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Full-Stack+Software+Engineer;React+19+%7C+Next.js+15+%7C+Node+%7C+Cloudflare;Salesforce+%7C+Payments+(Stripe%2FACH)%7C+Multi-Tenant;I+build+products+that+actually+ship.)](https://github.com/Wajahat-Ali-Git)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Full-Stack+Software+Engineer;React+19+%7C+Next.js+15+%7C+Node+%7C+Cloudflare;Salesforce+%7C+Payments+(Stripe%2FACH)+%7C+Multi-Tenant;I+build+products+that+actually+ship.)](https://github.com/Wajahat-Ali-Git)
 
 <br/>
 
